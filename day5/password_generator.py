@@ -36,8 +36,14 @@ else:
         number_random = random.randint(0, len(numbers_tab)-1)
         password_tab.append(numbers_tab[number_random])
 
+    random.shuffle(password_tab)
+
     for x in range(0, len(password_tab)-1):
         password_random = random.randint(0, len(password_tab)-1)
         password += password_tab[password_random]
 
     print(password)
+'''
+random_char = random.choice(letters_tab)
+print(random_char)
+'''
