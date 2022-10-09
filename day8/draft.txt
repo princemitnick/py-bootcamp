@@ -1,0 +1,24 @@
+    for x in range(0, len(alphabets)):
+        for y in range(0, len(message)):
+            if alphabets[x] == message[y]:
+                encoded_msg_pos.append(x)
+
+    for pos in encoded_msg_pos:
+        encoded_msg.append(alphabets[pos+shift])
+
+    print(encoded_msg_pos)
+    print(encoded_msg)
+
+    for mess in range(0, len(messages)):
+        for alphabet in range(0, len(alphabets)):
+            if alphabets[alphabet] == messages[mess]:
+                print(f"position : {alphabet} - {alphabets[alphabet]} ")
+                new_position = alphabet + shift
+                if new_position < len(alphabets):
+                    print(f"new position : {new_position} - {alphabets[new_position]} ")
+                    encoded_msg.append(alphabets[new_position])
+                else:
+                    print(f"len alphabets : {len(alphabets)} - position : {alphabet} - shift : {shift}")
+                    new_position = (len(alphabets) - 1 - alphabet) + (shift - 1)
+                    print(f"{new_position} - {alphabets[new_position]}")
+                    encoded_msg.append(alphabets[new_position])
