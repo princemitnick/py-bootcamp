@@ -29,11 +29,10 @@ def checkwinner(user_score, computer_score):
         print("you lose!")
 
 
-
 def blackjack_game():
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
-    #user_hands = [random.choice(cards), random.choice(cards)]
-    #computer_hands = [random.choice(cards), random.choice(cards)]
+    # user_hands = [random.choice(cards), random.choice(cards)]
+    # computer_hands = [random.choice(cards), random.choice(cards)]
     user_hands = [11, 12]
     computer_hands = [1, 3]
 
@@ -61,16 +60,6 @@ def blackjack_game():
             else:
                 print("You'll have another card")
                 get_another_card = True
-
-
-
-
-
-
-
-
-
-
 
 
 def get_user_score(list_computer_hands):
@@ -106,6 +95,7 @@ def user_over_score(list_user_hands):
 
     return check
 
+
 def change_as(list_user_hands):
     index = list_user_hands.index(11)
     list_user_hands[index] = 1
@@ -119,3 +109,5 @@ def has_as(list_user_hands):
 
 
 blackjack_game()
+
+
