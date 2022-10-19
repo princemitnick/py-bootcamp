@@ -1,0 +1,64 @@
+
+from coffee_resources import  resources
+from coffee_flavours import MENU
+def report():
+    global  resources
+    print(f"Water : {resources['water']}")
+    print(f"Milk : {resources['milk']}")
+    print(f"Coffee : {resources['coffee']}")
+    print(f"money : {resources['money']}")
+
+def process_coins(quarters, dimes, nickles, pennies):
+    return round((quarters * 0.25) + (dimes * 0.10) + (nickles * 0.05) + (pennies * 0.01), 2)
+
+def set_resources(current_resources, flavours, money):
+    current_resources['water'] = current_resources['water'] - flavours['ingredients']['water']
+    current_resources['coffee'] = current_resources['coffee'] - flavours['ingredients']['coffee']
+    current_resources['milk'] = current_resources['milk'] - flavours['ingredients']['milk']
+    current_resources['money'] = money
+
+def latte():
+    global resources
+    latte = MENU['latte']
+    if resources['coffee'] < latte['ingredients']['coffee']:
+        print("Sorry, there is not enough coffee.")
+    elif resources['water'] < latte['ingredients']['water']:
+        print("Sorry, there is not enough water.")
+    elif resources['milk'] < latte['ingredients']['milk']:
+        print("Sorry, there is not enough mater.")
+    else:
+        print("Please insert coin")
+        quarters = float(input("How many quarters? : "))
+        dimes = float(input("How many dimes? : "))
+        nickles = float(input("How many dimes? : "))
+        pennies = float(input("How many dimes? : "))
+        money = process_coins(quarters, dimes, nickles, pennies)
+        if money < latte['cost']:
+            print("Sorry that's not enough money. Money refunded.")
+        else:
+            if money > latte['cost']:
+                change = round((money - latte['cost']), 2)
+                print(f'Here your {change} in change.')
+                print("Here your late. Enjoy!")
+            else:
+                print("Here your late. Enjoy!")
+
+            set_resources(resources, latte, latte['cost'])
+            report()
+    print(latte)
+
+decision = None
+
+while decision != 'off':
+    decision = input("What would you like? (espresso/latte/cappuccino): ")
+    if decision == "report":
+        report()
+    elif decision == 'esperesso':
+        pass
+    elif decision == 'latte':
+        latte()
+    elif decision == 'capuccino':
+        pass
+    elif decision == 'off':
+        decision == 'off'
+
