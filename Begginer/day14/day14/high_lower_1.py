@@ -2,7 +2,8 @@ print("High Lower Game")
 import art
 print(art.game)
 from random import randint
-from users import instagram
+
+
 def index():
     global instagram
     return randint(0, len(instagram)-1)
