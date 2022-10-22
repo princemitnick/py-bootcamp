@@ -1,0 +1,24 @@
+    def next_question(self):
+        current_question = self.question_list[self.question_number]
+        self.question_number += 1
+        answer = input(f"Q{self.question_number}: {current_question.text} (True or False) : ")
+        return answer
+
+    def still_has_question(self):
+        if self.question_number == len(self.question_list):
+            return False
+        return True
+
+    def check_answer(self, answer):
+        if answer == self.question_list[self.question_number].answer:
+            self.score += 1
+            print("Excellent.")
+        else:
+            print("Failed")
+        return f"You score {self.score}/{self.question_number}"
+
+
+
+while quiz.still_has_question():
+    answer = quiz.next_question()
+    print(quiz.check_answer(answer))
