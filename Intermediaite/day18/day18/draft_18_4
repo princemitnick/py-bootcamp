@@ -1,0 +1,24 @@
+import turtle as t
+import random as rand
+
+timmy = t.Turtle()
+colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "SlateGray", "SeaGreen"]
+
+timmy.width(8)
+r = [0, 90, 180, 270]
+
+for _ in range(100):
+    timmy.right(90)
+    timmy.color(rand.choice(colours))
+    timmy.forward(rand.randint(20, 30))
+    timmy.right(rand.choice(r))
+    timmy.forward(rand.randint(20, 30))
+    timmy.right(rand.choice(r))
+    timmy.right(90)
+
+
+
+
+
+screen = t.Screen()
+screen.exitonclick()

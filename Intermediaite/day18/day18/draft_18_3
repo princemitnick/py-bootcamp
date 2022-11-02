@@ -1,0 +1,43 @@
+from turtle import  Turtle, Screen
+from random import  choice
+
+timmy = Turtle()
+
+
+'''
+for _ in range(4):
+    timmy.forward(100)
+    timmy.right(90)
+
+for _ in range(5):
+    timmy.forward(100)
+    timmy.right(72)
+
+for _ in range(6):
+    timmy.forward(100)
+    timmy.right(60)
+
+for _ in range(7):
+    timmy.forward(100)
+    timmy.right(51.5)
+
+for _ in range(8):
+    timmy.forward(100)
+    timmy.right(45)
+'''
+
+colors = ["blue", "red", "yellow", "purple", "black"]
+
+c = 3
+while c != 11:
+    timmy.color(choice(colors))
+    for _ in range(c):
+        timmy.forward(100)
+        timmy.right(360 / c)
+    c += 1
+
+
+
+
+screen = Screen()
+screen.exitonclick()
