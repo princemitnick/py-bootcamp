@@ -13,6 +13,7 @@ screen = Screen()
 screen.setup(width=600, height=400)
 screen.tracer(0)
 screen.bgcolor("black")
+screen.title("Animation")
 
 colors = ["yellow", "green", "purple","red", "blue", "white","aquamarine4", "brown1", "chartreuse1","darkolivegreen1", "deeppink2", "goldenrod2"]
 block_1_positions = [50, 30, 10]

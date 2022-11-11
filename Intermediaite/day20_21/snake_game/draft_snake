@@ -1,0 +1,23 @@
+from turtle import Turtle
+
+class Snake:
+
+    block = []
+    starting_positions = [(0, 0), (-20, 0), (-40, 0)]
+
+    for x in range(3):
+        tim = Turtle(shape="square")
+        tim.color()
+        tim.color("white")
+        tim.penup()
+        tim.goto(starting_positions[x])
+        block.append(tim)
+
+    def move(self):
+        for seg_num in range(len(self.block) - 1, 0, - 1):
+            new_x = self.block[seg_num - 1].xcor()
+            new_y = self.block[seg_num - 1].ycor()
+            self.block[seg_num].goto(new_x, new_y)
+
+        self.block[0].forward(10)
+        self.block[0].left(90)
