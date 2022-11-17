@@ -11,8 +11,8 @@ class Player(Turtle):
         self.setheading(90)
 
     def move(self):
-        new_y = self.ycor() + 15
-        self.goto(self.xcor(), new_y)
+        self.forward(10)
+
 
     def reset_position(self):
         self.goto(0, -280)

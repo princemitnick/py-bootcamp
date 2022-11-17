@@ -22,12 +22,14 @@ is_game_on = True
 screen.onkey(fun=player.move, key="Up")
 
 while is_game_on:
+    time.sleep(0.1)
     screen.update()
     car.create_car()
     car.move()
     if player.ycor() > 280:
         scoreboard.update_score()
         player.reset_position()
+        car.increase_move()
 
     for x in car.cars:
         x.forward(10)
