@@ -3,6 +3,7 @@ from turtle import Turtle
 FONT = ("arial", 15, "normal")
 ALIGNMENT = "center"
 check_score = False
+FILENAME = "./high_score.txt"
 
 
 class Scoreboard(Turtle):
@@ -11,7 +12,7 @@ class Scoreboard(Turtle):
         super().__init__()
         self.scores = [5, 10, 15, 20, 25, 60, 70, 80, 90, 100]
         self.score = 0
-        self.high_score = 0
+        self.high_score = self.read_score_from_file()
         self.level = 1
         self.hideturtle()
         self.penup()
@@ -30,6 +31,7 @@ class Scoreboard(Turtle):
     def reset_score(self):
         if self.score > self.high_score:
             self.high_score = self.score
+            self.save_score()
         self.score = 0
         self.level = 1
         self.scores = [5, 10, 15, 20, 25, 60, 70, 80, 90, 100]
@@ -49,3 +51,15 @@ class Scoreboard(Turtle):
             check_score = False
 
         return check_score
+
+    def save_score(self):
+        with open(FILENAME, mode="w") as file:
+            file.write(str(self.high_score))
+            file.close()
+
+    def read_score_from_file(self):
+        with open(FILENAME) as file:
+            high_score = int(file.read())
+            file.close()
+
+        return high_score
