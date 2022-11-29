@@ -31,8 +31,11 @@ while count < states_count:
     print(answer_state)
     print(data_list)
     if answer_state == "Exit":
-        missing_states = [state for state in data_list if state not in guess_states]
-        states_to_learn_dict = {"states": missing_states}
+        for state in data_list:
+            if state not in guess_states:
+                states_to_learn.append(state)
+
+        states_to_learn_dict = {"states": states_to_learn}
         df = pandas.DataFrame(states_to_learn_dict)
         df.to_csv("states_to_learn.csv")
 
