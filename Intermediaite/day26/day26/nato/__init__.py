@@ -18,7 +18,6 @@ nato_to_dict = {
     row.letter: row.code for (index, row) in nato_phonetic_alphabet.iterrows()
 }
 
-
 print(nato_to_dict)
 
 extract = [nato_to_dict[letter] for letter in name_to_list]
