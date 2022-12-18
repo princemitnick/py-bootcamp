@@ -30,6 +30,7 @@ def password_generator():
     password_entry.delete(0, END)
     password_entry.insert(0, password)
     pyperclip.copy(password)
+    pyperclip.paste()
 
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
