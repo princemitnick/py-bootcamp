@@ -58,7 +58,10 @@ def search_website():
             email = data[website_to_search]["email"]
             password = data[website_to_search]["password"]
             messagebox.showinfo(title=f"{website_to_search} found.", message=f"Email : {email} \nPassword : {password}")
+
+
 # ---------------------------- SAVE PASSWORD ------------------------------- #
+
 def save_password():
     web_site = website_entry.get()
     email_input = email_username_entry.get()

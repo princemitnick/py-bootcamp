@@ -112,4 +112,12 @@ for index in range(0, 10):
 #listbox2.pack()
 listbox2.bind("<<ListboxSelect>>", listbox_used)
 
+
+options = [
+    "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+]
+
+clicked = StringVar()
+
+
 window.mainloop()

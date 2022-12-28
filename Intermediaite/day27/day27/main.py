@@ -17,5 +17,5 @@
 def calculate(**kwargs):
     print(kwargs)
 
-calculate(add=3, multiply=4, subs=23)
+calculate(add=3, multiply=4, subs=23, prince="My Nigga")
 
