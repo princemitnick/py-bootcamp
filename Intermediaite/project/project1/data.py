@@ -1,3 +1,5 @@
+from datetime import date
+
 countries = \
     {"AF": "Afghanistan",
      "AX": "Aland Islands",
@@ -265,3 +267,50 @@ def countries_code():
 
 def country_by_code(code):
     return countries[code]
+
+
+def get_person(code, lastname, firstname, gender, dob, country):
+    person = {
+        code: {
+            "lastname": lastname,
+            "firstname": firstname,
+            "gender": gender,
+            "dob": dob,
+            "country": country
+        }
+    }
+    return person
+
+
+def initialize_calendar(component_name, start, end):
+    """Reinitialize combobox with origin data"""
+    component_name['value'] = [value for value in range(start, end)]
+
+
+def reset_entry(component_name, start_value, end_value):
+    """Delete entry input"""
+    component_name.delete(start_value, end_value)
+
+
+def get_all_codes(dictionary):
+    """Get All keys from a Dictionary"""
+    return [keys for (keys, values) in dictionary.items()]
+
+
+def get_age(dob):
+    complete_date = dob.split("-")
+    age = date.today().year - int(complete_date[0])
+
+    return f"{age} year(s) old."
+
+
+def showinfo(dictionary, code):
+    return f"""
+    [{code}]
+    =============================================
+    |Lastname = {dictionary[code]['lastname']}  |
+    |Firstname = {dictionary[code]['firstname']}|
+    |Gender = {dictionary[code]['gender']}      |
+    |Birth Date = {dictionary[code]['dob']}     |
+    |Age = {get_age(dictionary[code]['dob'])}   |
+ """

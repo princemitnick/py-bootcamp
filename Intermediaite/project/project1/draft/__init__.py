@@ -22,6 +22,10 @@ month_cb['values'] = [month_name[m][0:3] for m in range(1, 13)]
 month_cb['state'] = 'readonly'
 month_cb.pack(fill=tk.X, padx=5, pady=5)
 
+text = tk.Text(width=10, height=10, state=tk.DISABLED)
+text.pack()
+
+text.insert(tk.END, "HKJHLDFLKJHDS")
 
 def month_changed(event):
     showinfo(title='Result', message=f"You selected {selected_month.get()}!")
