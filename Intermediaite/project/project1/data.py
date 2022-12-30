@@ -308,9 +308,9 @@ def showinfo(dictionary, code):
     return f"""
     [{code}]
     =============================================
-    |Lastname = {dictionary[code]['lastname']}  |
-    |Firstname = {dictionary[code]['firstname']}|
-    |Gender = {dictionary[code]['gender']}      |
-    |Birth Date = {dictionary[code]['dob']}     |
-    |Age = {get_age(dictionary[code]['dob'])}   |
+    Lastname = {dictionary[code]['lastname']}  
+    Firstname = {dictionary[code]['firstname']}
+    Gender = {dictionary[code]['gender']}      
+    Birth Date = {dictionary[code]['dob']}     
+    Age = {get_age(dictionary[code]['dob'])}   
  """

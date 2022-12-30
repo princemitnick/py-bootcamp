@@ -62,7 +62,7 @@ def search_person():
     except FileNotFoundError:
         messagebox.showinfo(title="Error", message="Data file not found")
     else:
-        search_response.config(state=NORMAL)
+
         all_codes = data.get_all_codes(persons)
         code = e_code.get()
         if code.strip() == "":
