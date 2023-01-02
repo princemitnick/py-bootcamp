@@ -24,11 +24,1255 @@
         "english": "upon"
     },
     {
-        "french": "Ordinateur",
-        "english": "Computer"
+        "french": "ordinateur",
+        "english": "computer"
     },
     {
-        "french": "Souris",
-        "english": "Mouse"
+        "french": "souris",
+        "english": "mouse"
+    },
+    {
+        "french": "jamais",
+        "english": "never"
+    },
+    {
+        "french": "clavier",
+        "english": "keyboard"
+    },
+    {
+        "french": "ecran",
+        "english": "monitor"
+    },
+    {
+        "french": "ligne",
+        "english": "line"
+    },
+    {
+        "french": "mission",
+        "english": "assignment"
+    },
+    {
+        "french": "suppose",
+        "english": "Assumed"
+    },
+    {
+        "french": "chacun",
+        "english": "each"
+    },
+    {
+        "french": "autour",
+        "english": "around"
+    },
+    {
+        "french": "pote",
+        "english": "pal"
+    },
+    {
+        "french": "grosse",
+        "english": "fat"
+    },
+    {
+        "french": "expliquer",
+        "english": "explain"
+    },
+    {
+        "french": "arriv\u00e9e",
+        "english": "arrival"
+    },
+    {
+        "french": "monter",
+        "english": "ascend"
+    },
+    {
+        "french": "balle",
+        "english": "ball"
+    },
+    {
+        "french": "selon",
+        "english": "according to"
+    },
+    {
+        "french": "photos",
+        "english": "Pictures"
+    },
+    {
+        "french": "contr\u00f4le",
+        "english": "control"
+    },
+    {
+        "french": "pr\u00eate",
+        "english": "ready"
+    },
+    {
+        "french": "anglais",
+        "english": "English"
+    },
+    {
+        "french": "sorti",
+        "english": "got out"
+    },
+    {
+        "french": "k",
+        "english": "k"
+    },
+    {
+        "french": "bons",
+        "english": "good"
+    },
+    {
+        "french": "disparu",
+        "english": "gone"
+    },
+    {
+        "french": "tenir",
+        "english": "hold"
+    },
+    {
+        "french": "simplement",
+        "english": "simply"
+    },
+    {
+        "french": "quitter",
+        "english": "leave"
+    },
+    {
+        "french": "envoie",
+        "english": "send"
+    },
+    {
+        "french": "paul",
+        "english": "Paul"
+    },
+    {
+        "french": "aimer",
+        "english": "to like"
+    },
+    {
+        "french": "voie",
+        "english": "way"
+    },
+    {
+        "french": "paris",
+        "english": "Paris"
+    },
+    {
+        "french": "classe",
+        "english": "class"
+    },
+    {
+        "french": "huit",
+        "english": "eight"
+    },
+    {
+        "french": "offre",
+        "english": "offer"
+    },
+    {
+        "french": "poste",
+        "english": "post"
+    },
+    {
+        "french": "dangereux",
+        "english": "dangerous"
+    },
+    {
+        "french": "attaque",
+        "english": "offensive"
+    },
+    {
+        "french": "impression",
+        "english": "impression"
+    },
+    {
+        "french": "folle",
+        "english": "crazy woman"
+    },
+    {
+        "french": "michael",
+        "english": "Michael"
+    },
+    {
+        "french": "mange",
+        "english": "eat"
+    },
+    {
+        "french": "bravo",
+        "english": "well done"
+    },
+    {
+        "french": "arri\u00e8re",
+        "english": "back"
+    },
+    {
+        "french": "am\u00e9rique",
+        "english": "America"
+    },
+    {
+        "french": "suivre",
+        "english": "to follow"
+    },
+    {
+        "french": "aille",
+        "english": "wing"
+    },
+    {
+        "french": "oublier",
+        "english": "forget"
+    },
+    {
+        "french": "peuple",
+        "english": "people"
+    },
+    {
+        "french": "baiser",
+        "english": "kiss"
+    },
+    {
+        "french": "rencontr\u00e9",
+        "english": "meet"
+    },
+    {
+        "french": "honte",
+        "english": "shame "
+    },
+    {
+        "french": "connard",
+        "english": "asshole"
+    },
+    {
+        "french": "trou",
+        "english": "hole"
+    },
+    {
+        "french": "retourner",
+        "english": "to return to"
+    },
+    {
+        "french": "chanson",
+        "english": "song"
+    },
+    {
+        "french": "change",
+        "english": "exchange"
+    },
+    {
+        "french": "arr\u00eat\u00e9",
+        "english": "stopped"
+    },
+    {
+        "french": "enfer",
+        "english": "hell"
+    },
+    {
+        "french": "\u00e9crire",
+        "english": "to write"
+    },
+    {
+        "french": "livres",
+        "english": "books"
+    },
+    {
+        "french": "habitude",
+        "english": "habit"
+    },
+    {
+        "french": "r\u00e9ponse",
+        "english": "answer"
+    },
+    {
+        "french": "david",
+        "english": "david"
+    },
+    {
+        "french": "lieutenant",
+        "english": "lieutenant"
+    },
+    {
+        "french": "savait",
+        "english": "knew"
+    },
+    {
+        "french": "radio",
+        "english": "radio"
+    },
+    {
+        "french": "tenez",
+        "english": "hold"
+    },
+    {
+        "french": "bande",
+        "english": "bandaged"
+    },
+    {
+        "french": "bob",
+        "english": "bob"
+    },
+    {
+        "french": "rend",
+        "english": "renders"
+    },
+    {
+        "french": "compagnie",
+        "english": "company"
+    },
+    {
+        "french": "connu",
+        "english": "known"
+    },
+    {
+        "french": "secours",
+        "english": "rescue"
+    },
+    {
+        "french": "danse",
+        "english": "dance"
+    },
+    {
+        "french": "met",
+        "english": "put"
+    },
+    {
+        "french": "vol",
+        "english": "flight"
+    },
+    {
+        "french": "vit",
+        "english": "lives"
+    },
+    {
+        "french": "conneries",
+        "english": "bullshit"
+    },
+    {
+        "french": "aurez",
+        "english": "will have"
+    },
+    {
+        "french": "imagine",
+        "english": "conceived"
+    },
+    {
+        "french": "bo\u00eete",
+        "english": "box"
+    },
+    {
+        "french": "jou\u00e9",
+        "english": "cheek"
+    },
+    {
+        "french": "triste",
+        "english": "sad"
+    },
+    {
+        "french": "sud",
+        "english": "south"
+    },
+    {
+        "french": "lu",
+        "english": "read"
+    },
+    {
+        "french": "tel",
+        "english": "Phone"
+    },
+    {
+        "french": "merveilleux",
+        "english": "wonderful"
+    },
+    {
+        "french": "pute",
+        "english": "whore"
+    },
+    {
+        "french": "aie",
+        "english": "Ouch"
+    },
+    {
+        "french": "ressemble",
+        "english": "looks like"
+    },
+    {
+        "french": "coucher",
+        "english": "sleep"
+    },
+    {
+        "french": "ennuis",
+        "english": "troubles"
+    },
+    {
+        "french": "vol\u00e9",
+        "english": "Fly"
+    },
+    {
+        "french": "sortie",
+        "english": "exit"
+    },
+    {
+        "french": "devais",
+        "english": "had to"
+    },
+    {
+        "french": "combat",
+        "english": "fight"
+    },
+    {
+        "french": "bouche",
+        "english": "blocked"
+    },
+    {
+        "french": "certain",
+        "english": "certain"
+    },
+    {
+        "french": "visite",
+        "english": "visit"
+    },
+    {
+        "french": "existe",
+        "english": "exist"
+    },
+    {
+        "french": "b\u00eate",
+        "english": "stupid"
+    },
+    {
+        "french": "retourne",
+        "english": "return"
+    },
+    {
+        "french": "approche",
+        "english": "approach"
+    },
+    {
+        "french": "pourtant",
+        "english": "yet"
+    },
+    {
+        "french": "plusieurs",
+        "english": "many"
+    },
+    {
+        "french": "rire",
+        "english": "to laugh"
+    },
+    {
+        "french": "but",
+        "english": "goal"
+    },
+    {
+        "french": "sergent",
+        "english": "sergeant"
+    },
+    {
+        "french": "public",
+        "english": "audience"
+    },
+    {
+        "french": "syst\u00e8me",
+        "english": "system"
+    },
+    {
+        "french": "pr\u00e9sente",
+        "english": "present"
+    },
+    {
+        "french": "dirai",
+        "english": "will say"
+    },
+    {
+        "french": "faudra",
+        "english": "will have to"
+    },
+    {
+        "french": "\u00e9couter",
+        "english": "listen"
+    },
+    {
+        "french": "hors",
+        "english": "except"
+    },
+    {
+        "french": "exemple",
+        "english": "example"
+    },
+    {
+        "french": "vendre",
+        "english": "to sell"
+    },
+    {
+        "french": "continuer",
+        "english": "Continue"
+    },
+    {
+        "french": "coups",
+        "english": "strokes"
+    },
+    {
+        "french": "pourra",
+        "english": "may"
+    },
+    {
+        "french": "sympa",
+        "english": "nice"
+    },
+    {
+        "french": "nord",
+        "english": "north"
+    },
+    {
+        "french": "cuisine",
+        "english": "food"
+    },
+    {
+        "french": "\u00e9poque",
+        "english": "era"
+    },
+    {
+        "french": "grands",
+        "english": "tidy"
+    },
+    {
+        "french": "h\u00e9ros",
+        "english": "hero"
+    },
+    {
+        "french": "\u00e9trange",
+        "english": "odd"
+    },
+    {
+        "french": "avenir",
+        "english": "coming"
+    },
+    {
+        "french": "danger",
+        "english": "hazard"
+    },
+    {
+        "french": "envoyer",
+        "english": "send"
+    },
+    {
+        "french": "gouvernement",
+        "english": "government"
+    },
+    {
+        "french": "danser",
+        "english": "to dance"
+    },
+    {
+        "french": "lune",
+        "english": "moon"
+    },
+    {
+        "french": "etre",
+        "english": "to be="
+    },
+    {
+        "french": "poser",
+        "english": "to pose"
+    },
+    {
+        "french": "partez",
+        "english": "set off"
+    },
+    {
+        "french": "normal",
+        "english": "normal"
+    },
+    {
+        "french": "peau",
+        "english": "skin"
+    },
+    {
+        "french": "sant\u00e9",
+        "english": "health"
+    },
+    {
+        "french": "ecoutez",
+        "english": "Listen"
+    },
+    {
+        "french": "ouvrir",
+        "english": "open"
+    },
+    {
+        "french": "nez",
+        "english": "nose"
+    },
+    {
+        "french": "secondes",
+        "english": "seconds"
+    },
+    {
+        "french": "amoureux",
+        "english": "lover"
+    },
+    {
+        "french": "dommage",
+        "english": "shame"
+    },
+    {
+        "french": "pleine",
+        "english": "full"
+    },
+    {
+        "french": "mille",
+        "english": "thousand"
+    },
+    {
+        "french": "banque",
+        "english": "bank"
+    },
+    {
+        "french": "voler",
+        "english": "fly"
+    },
+    {
+        "french": "cl\u00e9",
+        "english": "key"
+    },
+    {
+        "french": "bonnes",
+        "english": "good"
+    },
+    {
+        "french": "para\u00eet",
+        "english": "appears"
+    },
+    {
+        "french": "servir",
+        "english": "to serve"
+    },
+    {
+        "french": "journal",
+        "english": "log"
+    },
+    {
+        "french": "village",
+        "english": "town"
+    },
+    {
+        "french": "tient",
+        "english": "is holding"
+    },
+    {
+        "french": "flic",
+        "english": "cop"
+    },
+    {
+        "french": "salaud",
+        "english": "bastard"
+    },
+    {
+        "french": "juge",
+        "english": "judge"
+    },
+    {
+        "french": "tir\u00e9",
+        "english": "drawn"
+    },
+    {
+        "french": "cour",
+        "english": "court"
+    },
+    {
+        "french": "assis",
+        "english": "sat"
+    },
+    {
+        "french": "bruit",
+        "english": "noise"
+    },
+    {
+        "french": "terrible",
+        "english": "terrible"
+    },
+    {
+        "french": "prochain",
+        "english": "next"
+    },
+    {
+        "french": "inspecteur",
+        "english": "inspector"
+    },
+    {
+        "french": "libert\u00e9",
+        "english": "freedom"
+    },
+    {
+        "french": "blague",
+        "english": "joke"
+    },
+    {
+        "french": "robe",
+        "english": "dress"
+    },
+    {
+        "french": "crime",
+        "english": "crime"
+    },
+    {
+        "french": "bi\u00e8re",
+        "english": "beer"
+    },
+    {
+        "french": "tas",
+        "english": "pile"
+    },
+    {
+        "french": "viennent",
+        "english": "are coming"
+    },
+    {
+        "french": "don",
+        "english": "Don"
+    },
+    {
+        "french": "reine",
+        "english": "queen"
+    },
+    {
+        "french": "prot\u00e9ger",
+        "english": "protect"
+    },
+    {
+        "french": "seuls",
+        "english": "only"
+    },
+    {
+        "french": "pr\u00e9f\u00e8re",
+        "english": "favorite"
+    },
+    {
+        "french": "bar",
+        "english": "bar"
+    },
+    {
+        "french": "dingue",
+        "english": "crazy"
+    },
+    {
+        "french": "vent",
+        "english": "wind"
+    },
+    {
+        "french": "piti\u00e9",
+        "english": "pity"
+    },
+    {
+        "french": "croit",
+        "english": "believes"
+    },
+    {
+        "french": "pay\u00e9",
+        "english": "paid"
+    },
+    {
+        "french": "travers",
+        "english": "through"
+    },
+    {
+        "french": "club",
+        "english": "club"
+    },
+    {
+        "french": "gar\u00e7ons",
+        "english": "boys"
+    },
+    {
+        "french": "conseil",
+        "english": "advice"
+    },
+    {
+        "french": "mesdames",
+        "english": "ladies"
+    },
+    {
+        "french": "sol",
+        "english": "floor"
+    },
+    {
+        "french": "bonheur",
+        "english": "happiness"
+    },
+    {
+        "french": "r\u00eaves",
+        "english": "dreams"
+    },
+    {
+        "french": "centre",
+        "english": "center"
+    },
+    {
+        "french": "th\u00e9",
+        "english": "tea"
+    },
+    {
+        "french": "m\u00eames",
+        "english": "same"
+    },
+    {
+        "french": "avions",
+        "english": "planes"
+    },
+    {
+        "french": "mike",
+        "english": "mike"
+    },
+    {
+        "french": "nulle",
+        "english": "nothing"
+    },
+    {
+        "french": "stupide",
+        "english": "stupid"
+    },
+    {
+        "french": "pouvons",
+        "english": "can"
+    },
+    {
+        "french": "vin",
+        "english": "wine"
+    },
+    {
+        "french": "tante",
+        "english": "aunt"
+    },
+    {
+        "french": "sent",
+        "english": "feel"
+    },
+    {
+        "french": "fiche",
+        "english": "plug"
+    },
+    {
+        "french": "milieu",
+        "english": "environment"
+    },
+    {
+        "french": "signe",
+        "english": "sign"
+    },
+    {
+        "french": "unis",
+        "english": "United"
+    },
+    {
+        "french": "appelez",
+        "english": "call"
+    },
+    {
+        "french": "d\u00e9part",
+        "english": "departure"
+    },
+    {
+        "french": "inutile",
+        "english": "useless"
+    },
+    {
+        "french": "emmener",
+        "english": "bring"
+    },
+    {
+        "french": "comprenez",
+        "english": "understand"
+    },
+    {
+        "french": "liste",
+        "english": "list"
+    },
+    {
+        "french": "gamin",
+        "english": "kid"
+    },
+    {
+        "french": "johnny",
+        "english": "johnny"
+    },
+    {
+        "french": "hey",
+        "english": "hey"
+    },
+    {
+        "french": "prise",
+        "english": "socket"
+    },
+    {
+        "french": "savent",
+        "english": "know"
+    },
+    {
+        "french": "diff\u00e9rent",
+        "english": "different"
+    },
+    {
+        "french": "verra",
+        "english": "will see"
+    },
+    {
+        "french": "probablement",
+        "english": "probably"
+    },
+    {
+        "french": "int\u00e9r\u00eat",
+        "english": "interest"
+    },
+    {
+        "french": "choisi",
+        "english": "selected"
+    },
+    {
+        "french": "parole",
+        "english": "word"
+    },
+    {
+        "french": "ennemi",
+        "english": "enemy"
+    },
+    {
+        "french": "v\u00eatements",
+        "english": "clothes"
+    },
+    {
+        "french": "aimez",
+        "english": "like"
+    },
+    {
+        "french": "recherche",
+        "english": "research"
+    },
+    {
+        "french": "soci\u00e9t\u00e9",
+        "english": "society"
+    },
+    {
+        "french": "faisais",
+        "english": "do"
+    },
+    {
+        "french": "peter",
+        "english": "to fart"
+    },
+    {
+        "french": "\u0153il",
+        "english": "eye"
+    },
+    {
+        "french": "soin",
+        "english": "care"
+    },
+    {
+        "french": "ch\u00e8re",
+        "english": "Dear"
+    },
+    {
+        "french": "tourne",
+        "english": "turned"
+    },
+    {
+        "french": "i\u00e0",
+        "english": "i\u00e0"
+    },
+    {
+        "french": "descendre",
+        "english": "go down"
+    },
+    {
+        "french": "f\u00e9licitations",
+        "english": "congratulations"
+    },
+    {
+        "french": "pose",
+        "english": "laid"
+    },
+    {
+        "french": "position",
+        "english": "position"
+    },
+    {
+        "french": "oeil",
+        "english": "eye"
+    },
+    {
+        "french": "vouloir",
+        "english": "want"
+    },
+    {
+        "french": "mecs",
+        "english": "guys"
+    },
+    {
+        "french": "irai",
+        "english": "go"
+    },
+    {
+        "french": "spectacle",
+        "english": "show"
+    },
+    {
+        "french": "achet\u00e9",
+        "english": "purchased"
+    },
+    {
+        "french": "laquelle",
+        "english": "which"
+    },
+    {
+        "french": "r\u00f4le",
+        "english": "role"
+    },
+    {
+        "french": "int\u00e9resse",
+        "english": "interested"
+    },
+    {
+        "french": "utiliser",
+        "english": "use"
+    },
+    {
+        "french": "match",
+        "english": "match"
+    },
+    {
+        "french": "devient",
+        "english": "bECOMES"
+    },
+    {
+        "french": "quitt\u00e9",
+        "english": "quits"
+    },
+    {
+        "french": "asseoir",
+        "english": "Sit"
+    },
+    {
+        "french": "environ",
+        "english": "around"
+    },
+    {
+        "french": "plait",
+        "english": "beating"
+    },
+    {
+        "french": "mur",
+        "english": "wall"
+    },
+    {
+        "french": "bless\u00e9",
+        "english": "hurt"
+    },
+    {
+        "french": "mise",
+        "english": "putting"
+    },
+    {
+        "french": "harry",
+        "english": "harry"
+    },
+    {
+        "french": "you",
+        "english": "you"
+    },
+    {
+        "french": "beaut\u00e9",
+        "english": "beauty"
+    },
+    {
+        "french": "salope",
+        "english": "slut"
+    },
+    {
+        "french": "parie",
+        "english": "bett"
+    },
+    {
+        "french": "sert",
+        "english": "serve"
+    },
+    {
+        "french": "soldats",
+        "english": "soldiers"
+    },
+    {
+        "french": "films",
+        "english": "movies"
+    },
+    {
+        "french": "am\u00e9ricain",
+        "english": "American"
+    },
+    {
+        "french": "marier",
+        "english": "marry"
+    },
+    {
+        "french": "entr\u00e9e",
+        "english": "Starter"
+    },
+    {
+        "french": "soldat",
+        "english": "soldier"
+    },
+    {
+        "french": "ouvert",
+        "english": "open"
+    },
+    {
+        "french": "sauter",
+        "english": "to jump"
+    },
+    {
+        "french": "londres",
+        "english": "London"
+    },
+    {
+        "french": "eiie",
+        "english": "eiie"
+    },
+    {
+        "french": "lequel",
+        "english": "which"
+    },
+    {
+        "french": "l\u00e2che",
+        "english": "cowardly"
+    },
+    {
+        "french": "\u00e9glise",
+        "english": "church"
+    },
+    {
+        "french": "pierre",
+        "english": "Pierre"
+    },
+    {
+        "french": "art",
+        "english": "art"
+    },
+    {
+        "french": "fen\u00eatre",
+        "english": "window"
+    },
+    {
+        "french": "humain",
+        "english": "human"
+    },
+    {
+        "french": "tort",
+        "english": "wrong"
+    },
+    {
+        "french": "cerveau",
+        "english": "brain"
+    },
+    {
+        "french": "coupable",
+        "english": "guilty"
+    },
+    {
+        "french": "petites",
+        "english": "small"
+    },
+    {
+        "french": "promets",
+        "english": "promotion"
+    },
+    {
+        "french": "adresse",
+        "english": "address"
+    },
+    {
+        "french": "prince",
+        "english": "prince"
+    },
+    {
+        "french": "quartier",
+        "english": "neighborhood"
+    },
+    {
+        "french": "espoir",
+        "english": "hope"
+    },
+    {
+        "french": "conduire",
+        "english": "drive"
+    },
+    {
+        "french": "auriez",
+        "english": "would have"
+    },
+    {
+        "french": "ridicule",
+        "english": "ridiculous"
+    },
+    {
+        "french": "justice",
+        "english": "justice"
+    },
+    {
+        "french": "rose",
+        "english": "pink"
+    },
+    {
+        "french": "venus",
+        "english": "Venus"
+    },
+    {
+        "french": "max",
+        "english": "max"
+    },
+    {
+        "french": "jimmy",
+        "english": "jimmy"
+    },
+    {
+        "french": "presse",
+        "english": "hurry"
+    },
+    {
+        "french": "adieu",
+        "english": "goodbye"
+    },
+    {
+        "french": "revient",
+        "english": "come back"
+    },
+    {
+        "french": "exp\u00e9rience",
+        "english": "experience"
+    },
+    {
+        "french": "pr\u00e9senter",
+        "english": "to present"
+    },
+    {
+        "french": "tomb\u00e9",
+        "english": "fall"
+    },
+    {
+        "french": "faisons",
+        "english": "let's do"
+    },
+    {
+        "french": "\u00e9pouser",
+        "english": "marry"
+    },
+    {
+        "french": "fr\u00e8res",
+        "english": "brothers"
+    },
+    {
+        "french": "veuillez",
+        "english": "please"
+    },
+    {
+        "french": "bol",
+        "english": "bowl"
+    },
+    {
+        "french": "fenetre",
+        "english": "window"
     }
 ]
