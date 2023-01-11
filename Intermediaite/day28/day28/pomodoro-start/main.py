@@ -11,7 +11,7 @@ WORK_MIN = 1
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 reps = 0
-timer =  None
+timer = None
 
 
 # ---------------------------- TIMER RESET ------------------------------- #
@@ -25,7 +25,8 @@ def reset():
     global reps
     reps = 0
 
-# ---------------------------- TIMER MECHANISM ------------------------------- # 
+
+# ---------------------------- TIMER MECHANISM ------------------------------- #
 
 def start_timer():
     global reps
@@ -65,7 +66,7 @@ def count_down(count):
     else:
         start_timer()
         mark = ""
-        work_sessions = math.floor(reps/2)
+        work_sessions = math.floor(reps / 2)
         for _ in range(work_sessions):
             mark += "✔"
         check_mark.config(text=mark)
