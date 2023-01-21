@@ -29,5 +29,5 @@ msg['Subject'] = f"Quote for {days[now.weekday()]}"
 with smtplib.SMTP("smtp-mail.outlook.com") as connection:
     connection.starttls()
     connection.login("ingjeanbaptiste@hotmail.com", "enidepack@404")
-    connection.sendmail(from_addr="ingjeanbaptiste@hotmail.com", to_addrs="ingjeanbaptiste@gmail.com", msg=msg.as_string())
+    connection.sendmail(from_addr="ingjeanbaptiste@hotmail.com", to_addrs="barnabeebarthelemy@gmail.com", msg=msg.as_string())
 
